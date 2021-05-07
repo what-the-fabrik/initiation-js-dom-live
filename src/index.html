@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>Projet WTF - Login form</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <main id="app" class="p-2  flex  justify-center  items-center">
+    <form id="login-form">
+      <fieldset class="border  rounded  p-2">
+        <legend>Vos identifiants</legend>
+        <div class="m-2  flex  flex-col  email-field">
+          <label for="email">Votre adresse email :</label>
+          <input type="email" id="email" class="border  px-2  py-1  rounded">
+          <span class="message  text-red-400  italic"></span>
+        </div>
+        <div class="m-2  flex  flex-col  password-field">
+          <label for="password">Votre mot de passe</label>
+          <input type="password" id="password" class="border  px-2  py-1  rounded">
+          <span class="message  text-red-400  italic"></span>
+        </div>
+        <div class="text-center">
+          <input type="submit" value="Se connecter" class="bord-er  px-2  py-1  rounded">
+        </div>
+      </fieldset>
+    </form>
+  </main>
+  <script src="./main.js"></script>
+</body>
+</html>

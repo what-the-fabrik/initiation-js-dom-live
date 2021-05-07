@@ -1,0 +1,15 @@
+html,
+body,
+#app {
+  height: 100%;
+}
+
+#login-form {
+  width: 500px;
+}
+
+.message {
+  line-height: 1.2rem;
+  height: 1.2rem;
+  font-size: 0.9em;
+}
